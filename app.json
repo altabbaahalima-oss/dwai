@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "دوائي",
+    "slug": "dawaei",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.dawaei.app",
+      "permissions": [
+        "CALL_PHONE",
+        "POST_NOTIFICATIONS",
+        "SCHEDULE_EXACT_ALARM",
+        "USE_FULL_SCREEN_INTENT",
+        "VIBRATE"
+      ]
+    },
+    "plugins": [
+      ["expo-notifications", { "color": "#2E7D5B" }]
+    ]
+  }
+}
